@@ -1,0 +1,22 @@
+Application will start from main.ts
+Then appmodule.ts will be loaded where deafult Appcomponent in injected which will call app.component.ts
+Now, in appcomponent.html we will place our all the component selectors
+
+How to create Component from CLI :
+ng g c component-name
+
+Component consists of:
+1. selector: 'app-success',
+2. templateUrl: './success.component.html',
+3. styleUrls: ['./success.component.css']
+
+
+
+Various ways of using selectors :
+1. As normal selector.
+2. As a class with "." prefixed in selector.
+3. As a property attribute [selector-name].
+
+Various ways template urls can be used :
+1. We can give template html path by default.
+2. We can write inline html as well. Example: template: '<div>test success</div>'
