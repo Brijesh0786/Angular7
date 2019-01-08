@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./warning.component.css']
 })
 export class WarningComponent implements OnInit {
+  status="warning exists";
 allow=false;
+employeeName="";
   constructor() {
     setTimeout(()=>{
       this.allow=true;
@@ -15,5 +17,11 @@ allow=false;
 
   ngOnInit() {
   }
+  showstatus(){
+    this.status="warning doesn't exist";
+  }
+  addEmployee(event:Event){
+    this.employeeName=(<HTMLInputElement>event.target).value;
 
+  }
 }
