@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { SuccessComponent } from './success/success.component';
 import { WarningComponent } from './warning/warning.component';
+import { Assignment2Component } from './assignment2/assignment2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { WarningComponent } from './warning/warning.component';
     HeroDetailComponent,
     MessagesComponent,
     SuccessComponent,
-    WarningComponent
+    WarningComponent,
+    Assignment2Component
   ],
   imports: [
     BrowserModule,
